@@ -1,0 +1,4 @@
+interface:
+  display_name: "本地文件数据查询"
+  short_description: "用自然语言查询本地文件和日志目录，完成筛选、去重、计数及分组统计"
+  default_prompt: "使用 $local-file-query 查询我指定的本地文件或目录，把需求转换为 lselect SQL 并执行，返回结果和可复用命令。"
